@@ -1,8 +1,8 @@
 ---
-Logo: image/leaf_256x256.png
+Logo: image/web.png
 Tagline: My portfolio.
 Social:
-    - title: Link till sidans github repo.
-      url: https://github.com/dbwebb-se/design-v3
+    - title: GitHub repository.
+      url: https://github.com/idaloof/Portfolio
       icon: github
 ---

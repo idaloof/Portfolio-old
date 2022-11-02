@@ -22,16 +22,21 @@ html, body {
 body {
     display: flex;
     flex-direction: column;
-    background-color: rgb(180, 167, 169);
+    background-color: #BB87AB;
 }
 
 .main {
     flex: 1 0 auto;
     padding: 10px;
+    margin: 0 auto;
+    width: 900px;
+    line-height: 1.9em;
 }
 
 .header, .footer {
     flex: 0 0 auto;
+    padding: 12px;
+    background-color: #F0DEA1;
 }
 
 /* Header */
@@ -39,6 +44,10 @@ body {
 .header, .site-header {
     display: flex;
     justify-content: space-between;
+}
+
+.header {
+    border-bottom: 1px solid #222;
 }
 
 /* Title */
@@ -104,6 +113,23 @@ h1, h2, h3, h4, h5, h6 {
 
 img {
     max-width: 100%;
+    border-radius: 50px;
+}
+
+#nav li:first-child  {
+    background-color: pink;
+}
+
+#nav li:last-child {
+    background-color: white;
+}
+
+#nav li:first-child :hover {
+    background-color: white;
+}
+
+#nav li:last-child :hover {
+    background-color: pink;
 }
 
 /* BELOW ARE PREPARED STYLES FOR CODE/PRE/BLOCKQUOTE, FEEL FREE TO REMOVE IT  */
