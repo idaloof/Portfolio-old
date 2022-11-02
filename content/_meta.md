@@ -5,4 +5,7 @@ Social:
     - title: GitHub repository.
       url: https://github.com/idaloof/Portfolio
       icon: github
+    - title: MDN docs.
+      url: https://developer.mozilla.org/en-US/
+      icon: code
 ---
